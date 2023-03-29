@@ -55,7 +55,7 @@ function Division() {
     var result = firstnumber / secondnumber;
     tag.innerHTML = result
 
-    if (result % 1 >= 0) {
+    if (result % 1 >= 0.01) {
         tag.innerHTML = result.toFixed(2)
     }
 }
